@@ -70,9 +70,9 @@ const ProductInfo = () => {
             <div className="flex flex-wrap mb-24 -mx-4">
               <div className="w-full px-4 mb-8 md:w-1/2 md:mb-0">
                 <div className="">
-                  <div className="">
+                  <div className=" lg:h-[39em] flex justify-center items-center">
                     <img
-                      className="lg:h-[39em] rounded-lg"
+                      className="p-5 rounded-lg object-contain h-full"
                       src={product?.productImageUrl}
                       alt=""
                     />
