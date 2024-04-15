@@ -67,7 +67,7 @@ const SearchBar = () => {
                         return (
                             <div
                             onClick={()=> navigate(`productinfo/${item.id}`)}
-                            key={index} className="py-2 px-2 cursor-pointer">
+                            key={index} className="py-2 px-2 cursor-pointer hover:bg-blue-gray-600">
                                 <div className="flex items-center gap-2">
                                     <img className="w-10" src={item.productImageUrl} alt="" />
                                     {item.title}
