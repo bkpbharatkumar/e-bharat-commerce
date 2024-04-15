@@ -42,7 +42,7 @@ const Category = () => {
         <div>
             <div className="flex flex-col mt-5">
                 {/* main 1 */}
-                <div className="flex overflow-x-scroll lg:justify-center  hide-scroll-bar">
+                <div className="flex overflow-x-scroll lg:justify-center md:justify-center  hide-scroll-bar">
                     {/* main 2  */}
                     <div className="flex ">
                         {/* category  */}

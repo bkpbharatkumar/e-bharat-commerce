@@ -15,7 +15,7 @@ const Footer = () => {
             to={"/"}
             className="flex title-font font-medium items-center md:justify-start justify-center text-white"
           >
-            <span className="text-xl font-bold">E-Bharat</span>
+          <span className="text-xl font-bold new-font">E-Bharat</span>
           </Link>
           {/* para  */}
           <p className="text-sm text-gray-100 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
@@ -34,7 +34,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <FaFacebook className="text-2xl" />
+              <FaFacebook className="text-2xl text-white hover:text-[text-white hover:text-[#1877F2]" />
             </Link>
 
             {/* twitter  */}
@@ -44,7 +44,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <AiFillTwitterCircle className="text-2xl" />
+              <AiFillTwitterCircle className="text-2xl text-white hover:text-[#1DA1F2]" />
             </Link>
 
             {/* instagram  */}
@@ -54,7 +54,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <RiInstagramFill className="text-2xl" />
+              <RiInstagramFill className="text-2xl text-white hover:text-[#833AB4]" />
             </Link>
 
             {/* linkedIn  */}
@@ -64,7 +64,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <FaLinkedin className="text-2xl" />
+              <FaLinkedin className="text-2xl text-white hover:text-[#0077B5]" />
             </Link>
 
             {/* GitHub  */}
@@ -74,7 +74,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <FaGithub className="text-2xl" />
+              <FaGithub className="text-2xl text-white hover:text-[#000000]" />
             </Link>
           </span>
         </div>
