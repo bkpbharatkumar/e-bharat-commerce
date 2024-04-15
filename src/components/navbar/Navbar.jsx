@@ -66,9 +66,9 @@ const Navbar = () => {
         </ul>
     )
     return (
-        <nav className="bg-pink-600 sticky top-0">
+        <nav className="bg-pink-600 bg-opacity-95 sticky top-0 h-20 shadow-md shadow-gray-500">
             {/* main  */}
-            <div className="lg:flex lg:justify-between items-center py-3 lg:px-3 ">
+            <div className="lg:flex lg:justify-between items-center py-5 lg:px-3 ">
                 {/* left  */}
                 <div className="left py-3 lg:py-0">
                     <Link to={'/'}>
