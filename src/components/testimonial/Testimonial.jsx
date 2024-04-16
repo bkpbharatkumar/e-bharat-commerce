@@ -15,7 +15,7 @@ const Testimonial = () => {
                         {/* Testimonial 1 */}
                         <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
                             <div className="h-full text-center">
-                                <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://i.pinimg.com/280x280_RS/cb/22/6b/cb226bde4fb87bd4eed8737a6214802f.jpg" />
+                                <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 transition-all hover:scale-125" src="https://i.pinimg.com/280x280_RS/cb/22/6b/cb226bde4fb87bd4eed8737a6214802f.jpg" />
                                 <p className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
                                 <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
                                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Bharat Kumar Parihar</h2>
@@ -26,7 +26,7 @@ const Testimonial = () => {
                         {/* Testimonial 2 */}
                         <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
                             <div className="h-full text-center">
-                                <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://pxbars.com/wp-content/uploads/2024/01/dp-photo-girl.jpg" />
+                                <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 transition-all hover:scale-125" src="https://pxbars.com/wp-content/uploads/2024/01/dp-photo-girl.jpg" />
                                 <p className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
                                 <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
                                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Aishwarya Jaiswal</h2>
@@ -37,7 +37,7 @@ const Testimonial = () => {
                         {/* Testimonial 3 */}
                         <div className="lg:w-1/3 lg:mb-0 p-4">
                             <div className="h-full text-center">
-                                <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://img.freepik.com/premium-photo/male-female-profile-avatar-user-avatars-gender-icons_1020867-75355.jpg?w=740" />
+                                <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 transition-all hover:scale-125" src="https://img.freepik.com/premium-photo/male-female-profile-avatar-user-avatars-gender-icons_1020867-75355.jpg?w=740" />
                                 <p className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
                                 <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
                                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">XYZ </h2>

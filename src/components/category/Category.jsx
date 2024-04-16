@@ -40,7 +40,7 @@ const Category = () => {
     const navigate = useNavigate();
     return (
         <div>
-            <div className="flex flex-col mt-5">
+            <div className="flex flex-col mt-5 ">
                 {/* main 1 */}
                 <div className="flex overflow-x-scroll lg:justify-center md:justify-center  hide-scroll-bar">
                     {/* main 2  */}
@@ -52,10 +52,10 @@ const Category = () => {
                                     {/* Image  */}
                                     <div 
                                     onClick={() => navigate(`/category/${item.name}`)}
-                                    className=" w-16 h-16 lg:w-24 lg:h-24 max-w-xs rounded-full  bg-pink-500 transition-all hover:bg-pink-400 cursor-pointer mb-1 " >
+                                    className=" w-16 h-16 lg:w-24 lg:h-24 max-w-xs rounded-full  bg-pink-500 transition-all hover:bg-pink-400 cursor-pointer mb-1" >
                                         <div className="flex justify-center mb-12">
                                             {/* Image tag  */}
-                                            <img src={item.image} alt="img" />
+                                            <img src={item.image} alt="img" className=" transition-all scale-90 hover:scale-110"/>
                                         </div>
                                     </div>
 

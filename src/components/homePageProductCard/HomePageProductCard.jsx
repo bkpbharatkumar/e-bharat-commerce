@@ -127,10 +127,10 @@ const HomePageProductCard = () => {
                             const {  id, title, price,productImageUrl } = item
                             return (
                                 <div key={index} className="p-4 w-full md:w-1/4">
-                                    <div className="h-full border border-gray-300 rounded-xl overflow-hidden shadow-md cursor-pointer">
+                                    <div className="h-full border border-gray-300 rounded-xl overflow-hidden shadow-md cursor-pointer p-2">
                                         <img
                                         onClick={()=> navigate(`/productinfo/${id}`)}
-                                            className="lg:h-80 h-96 m-auto p-5 hover:rounded-xl hover:p-3"
+                                            className="lg:h-80 h-96 m-auto p-3 hover:rounded-xl hover:p-0 transition-all"
                                             src={productImageUrl}
                                             alt="img"
                                         />

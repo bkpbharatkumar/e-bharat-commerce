@@ -34,7 +34,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <FaFacebook className="text-2xl text-white hover:text-[text-white hover:text-[#1877F2]" />
+              <FaFacebook className="text-2xl text-white hover:text-[text-white hover:text-[#1877F2] transition-all hover:scale-150" />
             </Link>
 
             {/* twitter  */}
@@ -44,7 +44,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <AiFillTwitterCircle className="text-2xl text-white hover:text-[#1DA1F2]" />
+              <AiFillTwitterCircle className="text-2xl text-white hover:text-[#1DA1F2] transition-all hover:scale-150" />
             </Link>
 
             {/* instagram  */}
@@ -54,7 +54,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <RiInstagramFill className="text-2xl text-white hover:text-[#833AB4]" />
+              <RiInstagramFill className="text-2xl text-white hover:text-[#833AB4] transition-all hover:scale-150" />
             </Link>
 
             {/* linkedIn  */}
@@ -64,7 +64,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <FaLinkedin className="text-2xl text-white hover:text-[#0077B5]" />
+              <FaLinkedin className="text-2xl text-white hover:text-[#0077B5] transition-all hover:scale-150" />
             </Link>
 
             {/* GitHub  */}
@@ -74,7 +74,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <FaGithub className="text-2xl text-white hover:text-[#000000]" />
+              <FaGithub className="text-2xl text-white hover:text-[#000000] transition-all hover:scale-150" />
             </Link>
           </span>
         </div>
