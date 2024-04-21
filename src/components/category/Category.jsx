@@ -55,7 +55,7 @@ const Category = () => {
                                     className=" w-16 h-16 lg:w-24 lg:h-24 max-w-xs rounded-full  bg-pink-500 transition-all hover:bg-pink-400 cursor-pointer mb-1" >
                                         <div className="flex justify-center mb-12">
                                             {/* Image tag  */}
-                                            <img src={item.image} alt="img" className=" transition-all scale-90 hover:scale-110"/>
+                                            <img src={item.image} alt="img" className=" transition-all scale-90 hover:scale-105"/>
                                         </div>
                                     </div>
 
