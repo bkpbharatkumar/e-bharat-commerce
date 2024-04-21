@@ -75,7 +75,7 @@ const Login = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen md:bg-gradient-to-r from-[#ff758c] to-[#ff7eb3]">
       {loading && <Loader />}
-      <div className="max-w-lg w-full p-8 bg-white rounded-lg shadow-lg">
+      <div className="max-w-lg w-full p-8 bg-white rounded-lg shadow-lg xs:shadow-none">
         <div className="mb-8">
           <img
             src="https://i.ibb.co/f2pk36L/undraw-secure-login-pdn4.png"
@@ -130,8 +130,6 @@ const Login = () => {
           >
             Login
           </button>
-        </div>
-
         <div>
           <h2 className="text-black">
             Don't Have an account{" "}
@@ -143,6 +141,8 @@ const Login = () => {
             </Link>
           </h2>
         </div>
+        </div>
+
       </div>
     </div>
   );
