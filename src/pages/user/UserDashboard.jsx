@@ -22,8 +22,9 @@ const UserDashboard = () => {
             {/* image  */}
             <div className="flex justify-center">
               <img
-                src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png"
+                src="https://cdn-icons-png.freepik.com/512/10302/10302971.png"
                 alt=""
+                className="w-28 rounded-full hover:scale-110 transition-all duration-200"
               />
             </div>
             {/* text  */}

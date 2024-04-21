@@ -25,7 +25,7 @@ const AdminDashboard = () => {
                     <div className=" bg-pink-50 py-5 rounded-xl border border-pink-100">
                         {/* image  */}
                         <div className="flex justify-center">
-                            <img src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png" alt="" />
+                            <img src="https://cdn-icons-png.freepik.com/512/10302/10302971.png" alt="" className='w-28 rounded-full hover:scale-110 transition-all duration-200'/>
                         </div>
                         {/* text  */}
                         <div className="">
@@ -92,7 +92,7 @@ const AdminDashboard = () => {
                             </Tab>
 
                             {/* Total Order  */}
-                            <Tab className="p-4 md:w-1/4 sm:w-1/2 w-full cursor-pointer">
+                            <Tab className="p-4 md:w-1/4  sm:w-1/2 w-full cursor-pointer">
                                 <div className=" border bg-pink-50 hover:bg-pink-100 border-pink-100 px-4 py-3 rounded-xl" >
                                     <div className="text-pink-500 w-12 h-12 mb-3 inline-block" >
                                         <svg

@@ -10,9 +10,14 @@
     font-family:  "Lugrasimo";
 }
 
+.amita{
+    font-family: "Amita", serif;
+}
 
-.backgroundImg{
-    
-/* background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%); */
-background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+.arya{
+    font-family: "Arya", sans-serif;
+}
+
+.rubik{
+    font-family: "Rubik Gemstones", system-ui;
 }

@@ -1,9 +1,10 @@
 import { useContext } from "react";
 import myContext from "../../context/myContext";
+import Loader from "../../components/loader/Loader";
 
 const OrderDetail = () => {
     const context = useContext(myContext);
-    const { getAllOrder, deleteProduct } = context;
+    const { getAllOrder, deleteProduct, loading } = context;
     // console.log(getAllOrder)
     return (
         <div>
@@ -13,8 +14,13 @@ const OrderDetail = () => {
                     <h1 className=" text-xl text-pink-300 font-bold">All Order</h1>
                 </div>
 
+                {/* Loading  */}
+            <div className="flex justify-center relative top-20">
+                {loading && <Loader />}
+            </div>
+
                 {/* table  */}
-                <div className="w-full overflow-x-auto">
+                <div className="w-full overflow-x-auto mb-5">
                     <table className="w-full text-left border border-collapse sm:border-separate border-pink-100 text-pink-400" >
                         <tbody>
                             <tr>
