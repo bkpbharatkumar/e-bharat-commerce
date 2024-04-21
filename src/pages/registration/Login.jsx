@@ -73,7 +73,7 @@ const Login = () => {
     }
   };
   return (
-    <div className="flex justify-center gap-10 p-2 items-center h-screen flex-row custom2:flex-col backgroundImg">
+    <div className="flex justify-center gap-10 p-2 items-center h-screen flex-row custom2:flex-col">
       {loading && <Loader />}
      
     <img src="https://i.ibb.co/f2pk36L/undraw-secure-login-pdn4.png" alt="" className="lg:w-[40rem] sm:w-[35rem] md:w-auto max-h-1/2 md:max-w-[50%] custom2:w-72 custom2:mt-5 "/>
