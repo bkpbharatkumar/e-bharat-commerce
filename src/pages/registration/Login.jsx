@@ -76,7 +76,7 @@ const Login = () => {
     <div className="flex justify-center gap-10 p-2 items-center h-screen flex-row custom2:flex-col backgroundImg">
       {loading && <Loader />}
      
-    <img src="/src/img/loginSvg2.svg" alt="" className="lg:w-[40rem] sm:w-[35rem] md:w-auto max-h-1/2 md:max-w-[50%] custom2:w-72 custom2:mt-5 "/>
+    <img src="https://i.ibb.co/f2pk36L/undraw-secure-login-pdn4.png" alt="" className="lg:w-[40rem] sm:w-[35rem] md:w-auto max-h-1/2 md:max-w-[50%] custom2:w-72 custom2:mt-5 "/>
       {/* Login Form  */}
       <div className="login_Form bg-pink-50 px-8 py-10 custom2:py-2 border border-pink-100 rounded-xl shadow-md w-full sm:w-80 md:w-96 lg:w-96 xl:w-96 2xl:w-96">
         {/* Top Heading  */}
