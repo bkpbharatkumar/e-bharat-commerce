@@ -87,7 +87,7 @@ const Signup = () => {
       {loading && <Loader />}
 
       {/* Login Form  */}
-      <div className="max-w-lg w-full p-8 bg-white rounded-lg shadow-lg sm:shadow-none">
+      <div className="max-w-lg w-full p-8 bg-white rounded-lg shadow-lg xs:shadow-none">
         <div className="mb-8">
           <img
             src="https://i.ibb.co/nQcx4bD/undraw-undraw-undraw-undraw-sign-up-ln1s-1-s4bc-1-ee41-1-3xti.png"
