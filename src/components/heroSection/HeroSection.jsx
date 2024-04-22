@@ -6,7 +6,6 @@ const HeroSection = () => {
         "https://i.ibb.co/FgN8chq/Pics-Art-04-22-04-23-16.jpg",
         "https://i.ibb.co/z2FMPzx/Pics-Art-04-22-04-28-44.jpg",
         "https://i.ibb.co/ZVbvK23/Pics-Art-04-22-04-32-22.jpg",
-        "https://i.ibb.co/FgN8chq/Pics-Art-04-22-04-23-16.jpg",
         "https://i.ibb.co/59y20Mv/Hero.png",
       ];
     return (
