@@ -3,10 +3,10 @@ import ImageSlider from "../imageSlider/ImageSlider";
 
 const HeroSection = () => {
     const images = [
-        "https://i.ibb.co/FgN8chq/Pics-Art-04-22-04-23-16.jpg",
-        "https://i.ibb.co/z2FMPzx/Pics-Art-04-22-04-28-44.jpg",
-        "https://i.ibb.co/ZVbvK23/Pics-Art-04-22-04-32-22.jpg",
-        "https://i.ibb.co/59y20Mv/Hero.png",
+        "https://i.ibb.co/QvMN8Vd/Banner-1.jpg",
+        "https://i.ibb.co/xYzy3g7/Banner-4.jpg",
+        "https://i.ibb.co/yQzyDc1/Banner-2.jpg",
+        "https://i.ibb.co/nPWbjSH/Banner-3.jpg",
       ];
     return (
         <div>
