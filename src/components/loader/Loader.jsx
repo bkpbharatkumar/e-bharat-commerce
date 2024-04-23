@@ -1,12 +1,12 @@
 import React from "react";
-import { Dialog, DialogBody } from "@material-tailwind/react";
+import { Dialog } from "@material-tailwind/react";
 
 const Loader = () => {
   return (
     <div className="">
 
-    <Dialog open={true} role="status" className="bg-transparent h-0 flex justify-center items-center border-none rounded-lg bg-none">
-      <DialogBody>
+    <Dialog open={true} role="status" className="bg-transparent h-0 flex justify-center items-center outline-none">
+      
         <svg
           aria-hidden="true"
           className="h-10 text-pink-200 animate-spin fill-pink-500"
@@ -24,7 +24,7 @@ const Loader = () => {
           />
         </svg>
         <span className="sr-only">Loading...</span>
-      </DialogBody>
+      
     </Dialog>
     </div>
   );
