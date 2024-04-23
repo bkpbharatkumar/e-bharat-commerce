@@ -90,7 +90,7 @@ const Signup = () => {
       <div className="max-w-lg w-full p-8 bg-white rounded-lg shadow-lg xs:shadow-none">
         <div className="mb-8">
           <img
-            src="https://i.ibb.co/qrq7Vyy/Sign.png"
+            src="https://i.ibb.co/1nXybHW/Signin.png"
             alt="Login illustration"
             className="w-full h-auto rounded-lg"
           />
