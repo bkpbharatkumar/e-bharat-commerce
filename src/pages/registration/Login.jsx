@@ -78,7 +78,7 @@ const Login = () => {
       <div className="max-w-lg w-full p-8 bg-white rounded-lg shadow-lg xs:shadow-none">
         <div className="mb-8">
           <img
-            src="https://i.ibb.co/f2pk36L/undraw-secure-login-pdn4.png"
+            src="https://i.ibb.co/zXg5gKh/Login.png"
             alt="Login illustration"
             className="w-full h-auto rounded-lg"
           />
