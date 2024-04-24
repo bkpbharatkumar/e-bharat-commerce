@@ -48,14 +48,16 @@ const SearchBar = () => {
   return (
     <div className="">
     {/* search input  */}
-    <div className="input flex justify-center">
+    <div className="input flex justify-center items-center">
         <input
             type="text"
+            id="search"
             placeholder='Search here'
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className=' bg-gray-200 placeholder-gray-400 rounded-lg px-2 py-2 w-96 lg:w-96 md:w-96 sm:w-96 focus:outline-none border focus:border-[#1c045f] focus:ring-[#1c045f]'
+            className=' bg-gray-200 placeholder-gray-800 rounded-lg px-2 py-2 w-96 lg:w-96 md:w-96 sm:w-96 focus:outline-none border focus:border-[#1c045f] focus:ring-[#1c045f]'
         />
+        <label htmlFor="search" className="text-3xl -ml-10 cursor-pointer active:">🧐</label>
     </div>
 
     {/* search drop-down  */}

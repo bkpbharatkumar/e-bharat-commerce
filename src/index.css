@@ -26,3 +26,9 @@
     font-family: "Merienda", cursive;
     font-weight: 800;
 }
+
+.bharat:hover {
+    background: linear-gradient(to right, #FF9933, #FFFFFF, #138808);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
