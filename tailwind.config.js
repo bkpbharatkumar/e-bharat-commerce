@@ -12,6 +12,8 @@ import withMT from "@material-tailwind/react/utils/withMT";
         'xl': '1280px',
         '2xl': '1536px',
         'custom': {'min': '940px', 'max': '1051px'},
+        'custom2': {'min': '1024px', 'max': '1215px'},
+
       },
    
    },

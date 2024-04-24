@@ -15,12 +15,12 @@ const Footer = () => {
             to={"/"}
             className="flex title-font font-medium items-center md:justify-start justify-center text-white"
           >
-          <span className="text-xl font-bold merienda uppercase bharat hover:text-transparent">E-BharaT</span>
+          <span className="text-xl font-bold merienda uppercase bharat hover:text-transparent lg:border-none md:border-none xs:border-b-2 xs:border-gray-200 pb-2">E-BharaT</span>
           </Link>
           {/* para  */}
           <p className="text-sm text-gray-100 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © 2023-2024 ebharat.in
-            <p className="text-blue-gray-800 xs:text-left">Powered By <span className="ml-2 mr-2 xs:text-center">—</span><Link to={""} className="bharat hover:text-transparent xs-text-center">i.m.bkp</Link></p>
+            <p className="text-blue-gray-800 xs:text-left">Powered By <span className="ml-2 mr-2 xs:text-center">—</span><Link to={"https://www.instagram.com/i.m.bkp"} className="bharat hover:text-transparent xs-text-center">@i.m.bkp</Link></p>
           </p>
 
           {/* media icon  */}

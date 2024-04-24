@@ -126,7 +126,7 @@ const Navbar = () => {
       {/* main  */}
       <div className="lg:flex lg:justify-between items-center py-5 lg:px-3 ">
         {/* left  */}
-        <div className="left py-3 lg:py-0">
+        <div className="left py-3 lg:py-0 display">
           <Link to={"/"}>
             <h2 className=" font-bold text-white text-2xl text-center merienda uppercase lg:mx-5 bharat hover:text-transparent">
               E-Bharat
