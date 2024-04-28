@@ -55,14 +55,14 @@ const SearchBar = () => {
             placeholder='Search here'
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className=' bg-gray-200 placeholder-gray-800 rounded-lg px-2 py-2 w-96 lg:w-96 md:w-96 sm:w-96 focus:outline-none border focus:border-[#1c045f] focus:ring-[#1c045f] pr-10'
+            className=' bg-gray-200 placeholder-gray-800 rounded-lg px-2 py-2 lg:w-80 md:w-96 sm:w-96 focus:outline-none border focus:border-[#1c045f] focus:ring-[#1c045f] pr-16'
         />
         <label htmlFor="search" className="text-3xl -ml-10 cursor-pointer active:">🧐</label>
     </div>
 
     {/* search drop-down  */}
     <div className=" flex justify-center">
-        {search && <div className="block absolute bg-gray-200 w-96 md:w-96 lg:w-96 z-50 my-1 rounded-lg px-2 py-2">
+        {search && <div className="block absolute bg-gray-200 w-80 lg:w-80 md:w-96 sm:w-96 z-50 my-1 rounded-lg px-2 py-2">
             {filterSearchData.length > 0 ?
                 <>
                     {filterSearchData.map((item, index) => {

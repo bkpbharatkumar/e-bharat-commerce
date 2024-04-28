@@ -20,12 +20,12 @@ const Navbar = () => {
 
   // navList Data
   const navList = (
-    <ul className="flex space-x-3 text-white font-medium text-[0.9rem] text-base md:text-base lg:text-lg lg:gap-12 md:gap-10 sm:gap-8 px-5 ">
+    <ul className="flex space-x-3 text-white font-medium text-[0.9rem] text-base md:text-base lg:text-lg lg:gap-12 md:gap-10 sm:gap-10 sx:gap-0 sx:text-md px-5 ">
       {/* Home */}
       <li className="relative group">
         <Link
           to={"/"}
-          className="text-white lg:uppercase md:uppercase transition-all lg:hover:text-[20px]"
+          className="text-white uppercase transition-all lg:hover:text-[20px]"
         >
           Home
         </Link>
@@ -36,9 +36,9 @@ const Navbar = () => {
       <li className="relative group">
         <Link
           to={"/allproduct"}
-          className="text-white lg:uppercase md:uppercase transition-all lg:hover:text-[20px]"
+          className="text-white uppercase transition-all lg:hover:text-[20px]"
         >
-          All Product
+          Products
         </Link>
         <span className="absolute inset-x-96 bottom-0 h-0.5 bg-[#1c045f] transition-all duration-200 group-hover:inset-x-0"></span>
       </li>
@@ -48,7 +48,7 @@ const Navbar = () => {
         <li className="relative group">
           <Link
             to={"/signup"}
-            className="text-white lg:uppercase md:uppercase transition-all lg:hover:text-[20px]"
+            className="text-white uppercase transition-all lg:hover:text-[20px]"
           >
             Signup
           </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
         <li className="relative group">
           <Link
             to={"/login"}
-            className="text-white lg:uppercase md:uppercase transition-all lg:hover:text-[20px]"
+            className="text-white uppercase transition-all lg:hover:text-[20px]"
           >
             Login
           </Link>
@@ -91,7 +91,7 @@ const Navbar = () => {
         <li className="relative group">
           <Link
             to={"/admin-dashboard"}
-            className="text-white lg:uppercase md:uppercase transition-all lg:hover:text-[20px]"
+            className="text-white uppercase transition-all lg:hover:text-[20px]"
           >
             Admin
           </Link>
@@ -102,7 +102,7 @@ const Navbar = () => {
       {/* logout */}
       {user && (
         <li
-          className=" cursor-pointer text-white lg:uppercase md:uppercase transition-all lg:hover:text-[20px] hover:text-amber-200"
+          className=" cursor-pointer text-white uppercase transition-all lg:hover:text-[20px] hover:text-amber-200"
           onClick={logout}
         >
           logout
@@ -113,7 +113,7 @@ const Navbar = () => {
       <li className="relative group">
         <Link
           to={"/cart"}
-          className="text-white  lg:uppercase md:uppercase transition-all lg:hover:text-[20px]"
+          className="text-white  uppercase transition-all lg:hover:text-[20px]"
         >
           <span className="absolute inset-x-96 bottom-0 h-0.5 bg-[#1c045f] transition-all duration-200 group-hover:inset-x-0"></span>
           Cart({cartItems.length})
@@ -122,13 +122,13 @@ const Navbar = () => {
     </ul>
   );
   return (
-    <nav className="bg-pink-600 bg-opacity-95 lg:sticky  top-0 lg:h-20 md:h-44 sm:h-44 shadow-md shadow-gray-500 z-50">
+    <nav className="bg-pink-600 bg-opacity-95 lg:sticky  top-0  shadow-md shadow-gray-500 z-50">
       {/* main  */}
       <div className="lg:flex lg:justify-between items-center py-5 lg:px-3 ">
         {/* left  */}
         <div className="left py-3 lg:py-0 display">
           <Link to={"/"}>
-            <h2 className=" font-bold text-white text-2xl text-center merienda uppercase lg:mx-5 bharat hover:text-transparent">
+            <h2 className=" font-bold text-white text-[22px] text-center merienda uppercase bharat hover:text-transparent">
               E-Bharat
             </h2>
           </Link>
